@@ -11,7 +11,7 @@ services:
       - db
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings_DefaultConnection=Host=db;Port=5432;Database=pm_db;Username=postgres;Password=postgres
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=pm_db;Username=postgres;Password=postgres
 
   db:
     image: postgres:16
